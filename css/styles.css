@@ -10143,3 +10143,20 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.social a {
+  font-size: 3.5em;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color: rgb(100, 98, 98);
+}
+
+.fa-github {
+  color: rgb(100, 98, 98);
+}
+
+.fa-linkedin {
+  color: rgb(100, 98, 98);
+}
