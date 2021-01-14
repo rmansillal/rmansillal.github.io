@@ -6073,13 +6073,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #ee3e0d !important;
+  background-color: #343a40 !important;
 }
 
 .bg-secondary {
@@ -9843,7 +9843,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #363b3f !important;
 }
 
 .text-black-50 {
@@ -10075,7 +10075,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/fondo.jpg");
+  background: linear-gradient(to bottom, rgba(114, 95, 81, 0.664) 0%, rgba(117, 98, 84, 0.637) 100%), url("../assets/img/world.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10149,14 +10149,20 @@ header.masthead h1 {
   padding: 3rem;
 }
 
-.fa-facebook {
-  color: rgb(100, 98, 98);
+.fa-researchgate {
+  color: #363b3f;
 }
 
 .fa-github {
-  color: rgb(100, 98, 98);
+  color: #363b3f;
 }
 
 .fa-linkedin {
-  color: rgb(100, 98, 98);
+  color: #363b3f;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-linkedin:hover{
+  color:#8696a7
 }
